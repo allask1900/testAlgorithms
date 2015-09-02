@@ -9,7 +9,7 @@ public abstract class AbstractSort {
 	public AbstractSort(int arraySize){
 		this.arraySize=arraySize;
 	}
-	public int arraySize=10;
+	public int arraySize=100;
 	
 	public void testPrint(){
 		int[] ints=getArray();
